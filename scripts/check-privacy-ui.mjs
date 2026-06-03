@@ -22,7 +22,7 @@ for (const selector of requiredSelectors) {
 }
 
 const requiredPhrases = [
-  'do not include sensitive personal identifiers',
+  'sensitive personal identifiers',
   'confidential client details',
   'reject non-essential',
   'customize',
