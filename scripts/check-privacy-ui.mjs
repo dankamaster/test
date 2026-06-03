@@ -39,6 +39,7 @@ for (const phrase of requiredPhrases) {
 if (!js.includes('cookieConsent')) errors.push('app.js does not persist cookieConsent.');
 if (!js.includes('leadModalClosed')) errors.push('app.js does not persist lead modal dismissal.');
 if ($('input[name="updates"][checked]').length) errors.push('Marketing updates checkbox must not be pre-checked.');
+if ($('input[name="updates"]').length) errors.push('Marketing opt-in must not be inside the legal documentation request form.');
 
 if (errors.length) {
   console.error('Privacy UI QA failed:\n' + errors.map((e) => `- ${e}`).join('\n'));
