@@ -1,7 +1,6 @@
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(() => {}));
+  window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(()=>{}));
 }
-
 const modal = document.getElementById('lead-modal');
 const closeBtn = modal?.querySelector('.close');
 let opened = false;
@@ -32,7 +31,6 @@ if (modal) {
 
   window.addEventListener('scroll', () => {
     if (opened) return;
-
     const depth = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
 
     if (depth > 0.55) {
@@ -42,9 +40,10 @@ if (modal) {
   });
 }
 
+
+
 const menuToggle = document.querySelector('.menu-toggle');
 const siteMenu = document.querySelector('#site-menu');
-
 if (menuToggle && siteMenu) {
   menuToggle.addEventListener('click', () => {
     const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
@@ -57,28 +56,24 @@ const cookieBanner = document.querySelector('#cookieBanner');
 const cookieModal = document.querySelector('#cookieModal');
 const saveCookiePrefs = document.querySelector('#saveCookiePrefs');
 const closeCookie = document.querySelector('[data-close-cookie]');
-
-if (!localStorage.getItem('cookieConsent') && cookieBanner) {
-  cookieBanner.hidden = false;
-}
-
+if (!localStorage.getItem('cookieConsent') && cookieBanner) cookieBanner.hidden = false;
 document.querySelectorAll('[data-cookie]').forEach((button) => {
   button.addEventListener('click', () => {
     const action = button.dataset.cookie;
 
-    if (action === 'accept') {
-      localStorage.setItem('cookieConsent', JSON.stringify({ essential: true, analytics: true, marketing: true }));
-      if (cookieBanner) cookieBanner.hidden = true;
-    }
+    
+if (action === 'accept') {
+  localStorage.setItem('cookieConsent', JSON.stringify({ essential: true, analytics: true, marketing: true }));
+  if (cookieBanner) cookieBanner.hidden = true;
+}
 
-    if (action === 'reject') {
-      localStorage.setItem('cookieConsent', JSON.stringify({ essential: true, analytics: false, marketing: false }));
-      if (cookieBanner) cookieBanner.hidden = true;
-    }
+if (action === 'reject') {
+  localStorage.setItem('cookieConsent', JSON.stringify({ essential: true, analytics: false, marketing: false }));
+  if (cookieBanner) cookieBanner.hidden = true;
+}
 
-    if (action === 'customize' && cookieModal) {
-      cookieModal.hidden = false;
-    }
+    
+    if (action === 'customize' && cookieModal) cookieModal.hidden = false;
   });
 });
 
@@ -92,7 +87,6 @@ saveCookiePrefs?.addEventListener('click', () => {
     analytics: Boolean(document.querySelector('#analyticsConsent')?.checked),
     marketing: Boolean(document.querySelector('#marketingConsent')?.checked)
   }));
-
   if (cookieModal) cookieModal.hidden = true;
   if (cookieBanner) cookieBanner.hidden = true;
 });
