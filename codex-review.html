@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Codex Review Report | COI Report SEO/PWA Test Assignment</title>
+  <meta name="description" content="Codex senior review summary, critical findings, implemented fixes, and remaining hardening plan for the COI report SEO/PWA test assignment.">
+  <link rel="canonical" href="https://ai-cpc.ru/test/codex-review.html">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header">
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">The Human Rights Experts</a>
+    <a class="header-email" href="mailto:test@test.com">test@test.com</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open documentation menu">☰</button>
+    <nav id="site-menu" class="site-menu" aria-label="Project documentation">
+      <a href="index.html">Article</a>
+      <a href="research.html">Research Hub</a>
+      <a href="codex-review.html">Codex Review</a>
+      <a href="docs/codex-review-brief.md">Codex Brief</a>
+      <a href="SUBMISSION_PACK.md">Submission Pack</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <article>
+    <p class="eyebrow">External red-team review</p>
+    <h1>Codex Review Report and Hardening Plan</h1>
+    <p class="lead">This page summarizes the senior review feedback received from Codex and explains how the project was hardened in response.</p>
+
+    <div class="notice">The first Codex review found that the project was a reasonable prototype but not yet production-grade. This page records the issues, fixes, and remaining limitations.</div>
+
+    <section>
+      <h2>Critical Findings from Codex</h2>
+      <ul>
+        <li>The visible article needed stronger source transparency for a YMYL legal topic.</li>
+        <li>EEAT signals were too light because the page used a generic Editorial Team placeholder.</li>
+        <li>The canonical/live URL and submission-pack status needed tightening.</li>
+        <li>Cookie/privacy claims were inconsistent because cookie JavaScript existed before cookie markup was added.</li>
+        <li>The email lead flow needed stronger confidentiality boundaries.</li>
+        <li>The PWA layer was useful but basic and should not be overclaimed.</li>
+        <li>The competitor teardown needed more evidence-based positioning.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fixes Already Implemented</h2>
+      <table>
+        <caption>Implemented fixes after Codex review</caption>
+        <tr><th scope="col">Issue</th><th scope="col">Fix</th></tr>
+        <tr><td>Missing cookie markup</td><td>Added visible cookie banner and cookie preferences modal.</td></tr>
+        <tr><td>Missing FAQ schema</td><td>Added FAQPage JSON-LD matching the visible FAQ.</td></tr>
+        <tr><td>Primary keyword absent</td><td>Added exact primary keyword in visible article copy and schema keywords.</td></tr>
+        <tr><td>Table accessibility</td><td>Added table caption and column scopes.</td></tr>
+        <tr><td>Weak README</td><td>Expanded README with QA, privacy, legal/YMYL, and local development notes.</td></tr>
+        <tr><td>Weak source governance</td><td>Added editorial policy, source methodology, and research data map.</td></tr>
+        <tr><td>No QA automation</td><td>Added repository, HTML, schema, privacy UI, and accessibility smoke tests.</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Remaining Known Limitations</h2>
+      <ul>
+        <li>Production version still needs real author and reviewer credentials.</li>
+        <li>Live Lighthouse screenshots must be added after deployment.</li>
+        <li>Source validation matrix should be expanded with URLs, dates, and claim-level traceability.</li>
+        <li>PWA icons and offline handling can be improved for a production release.</li>
+        <li>Real company internal links should replace test placeholders.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Second Review Instructions</h2>
+      <p>For a second Codex review, use <a href="docs/codex-review-brief.md">docs/codex-review-brief.md</a>. It asks the reviewer not to repeat already-fixed findings and to focus on remaining critical/high-priority issues.</p>
+    </section>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">© The Human Rights Experts</div></footer>
+<script src="app.js"></script>
+</body>
+</html>
