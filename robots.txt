@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /test/
+
+# Public assignment page can be indexed after deployment.
+Allow: /test/coi-report-us-asylum-case/
+
+# Internal evidence / review artifacts are for submission review, not public SEO indexing.
+Disallow: /test/research.html
+Disallow: /test/model.html
+Disallow: /test/codex-review.html
+Disallow: /test/docs-index.html
+Disallow: /test/serp-analysis.html
+Disallow: /test/pdf-analysis.html
+Disallow: /test/keyword-analysis.html
+Disallow: /test/legal-framework.html
+
+Sitemap: https://ai-cpc.ru/test/sitemap.xml
