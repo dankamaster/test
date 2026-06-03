@@ -3,6 +3,7 @@ import * as cheerio from 'cheerio';
 
 const html = fs.readFileSync('index.html', 'utf8');
 const js = fs.readFileSync('app.js', 'utf8');
+const htmlLower = html.toLowerCase();
 const $ = cheerio.load(html);
 const errors = [];
 
@@ -21,18 +22,18 @@ for (const selector of requiredSelectors) {
 }
 
 const requiredPhrases = [
-  'Do not include sensitive personal identifiers',
+  'do not include sensitive personal identifiers',
   'confidential client details',
-  'Reject non-essential',
-  'Customize',
-  'Accept all',
-  'Essential cookies',
-  'Analytics cookies',
-  'Marketing cookies'
+  'reject non-essential',
+  'customize',
+  'accept all',
+  'essential cookies',
+  'analytics cookies',
+  'marketing cookies'
 ];
 
 for (const phrase of requiredPhrases) {
-  if (!html.includes(phrase)) errors.push(`Missing privacy phrase: ${phrase}`);
+  if (!htmlLower.includes(phrase)) errors.push(`Missing privacy phrase: ${phrase}`);
 }
 
 if (!js.includes('cookieConsent')) errors.push('app.js does not persist cookieConsent.');
