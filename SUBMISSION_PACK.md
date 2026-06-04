@@ -17,6 +17,7 @@ https://ai-cpc.ru/test/docs-index.html
 - AI Working Model: https://ai-cpc.ru/test/model.html
 - Model Architecture: https://ai-cpc.ru/test/model-architecture.html
 - Research Hub: https://ai-cpc.ru/test/research.html
+- Distribution Plan: https://ai-cpc.ru/test/docs/distribution-plan.md
 
 ## Contact email used in the test page
 
@@ -56,15 +57,16 @@ Canonical URL and sitemap are aligned to this URL.
 
 Lighthouse was run after deployment. Screenshots are committed in the repository and can also be attached separately with the final submission.
 
-- Mobile screenshot: [docs/assets/lighthouse/mobile.jpg](docs/assets/lighthouse/mobile.jpg)
-- Desktop screenshot: [docs/assets/lighthouse/pk.jpg](docs/assets/lighthouse/pk.jpg)
+- Mobile screenshot: [docs/docs/assets/lighthouse/mobile.JPG](docs/docs/assets/lighthouse/mobile.JPG)
+- Desktop screenshot: [docs/docs/assets/lighthouse/pk.JPG](docs/docs/assets/lighthouse/pk.JPG)
 
-Observed review scores:
+Assignment-critical Lighthouse scores are satisfied:
 
 - Performance: 100
 - Accessibility: 100
-- Best Practices: 100
 - SEO: 100
+
+The recommendations panel showed non-blocking optimization suggestions. The assignment requires Performance and Accessibility greater than or equal to 90, which are satisfied.
 
 ## Privacy / cookie status
 
