@@ -10,19 +10,15 @@ Primary conversion action: email-based COI documentation request.
 
 ## Channels
 
-1. LinkedIn — immigration attorneys, paralegals, legal operations, nonprofit legal teams, and expert-witness networks.
-2. Quora — educational answers to asylum evidence, country conditions, and expert documentation questions.
-3. Reddit — cautious educational participation in immigration/legal communities without solicitation or case-specific advice.
-4. Guest outreach — immigration law blogs, legal-aid resources, law school clinics, and human rights blogs.
-5. Direct outreach — small immigration law firms and nonprofit legal clinics that publish asylum evidence or country conditions resources.
+1. Quora — educational answers to asylum evidence, country conditions, and expert documentation questions.
+2. Reddit — cautious educational participation in immigration/legal communities without solicitation or case-specific advice.
+3. Guest outreach — immigration law blogs, legal-aid resources, law school clinics, and human rights blogs.
+4. Direct outreach — small immigration law firms and nonprofit legal clinics that publish asylum evidence or country conditions resources.
+5. Niche resource placement — curated legal-resource pages, expert-witness directories, clinic reading lists, and human-rights documentation roundups.
 
-LinkedIn execution can be scheduled after the initial submission, but the channel remains part of the strategy because the ICP is strongly professional and attorney-facing.
+LinkedIn is intentionally excluded from the first execution wave. It can be tested later as a separate professional-network channel, but this initial plan does not depend on it.
 
 ## Channel rationale
-
-### LinkedIn
-
-The article targets legal teams, not general asylum applicants. LinkedIn is useful for reaching immigration attorneys, legal operations people, nonprofit staff, expert witnesses, and paralegals who already discuss litigation support, documentation, and research workflows.
 
 ### Quora
 
@@ -40,28 +36,11 @@ Guest posts or resource mentions are realistic because this is an expert niche w
 
 Small firms and clinics often need practical documentation support but may not have dedicated research staff. A short, non-sales email can ask whether a COI checklist/resource would be useful to their team.
 
-## Example post 1 — LinkedIn-style professional post
+### Niche resource placement
 
-Country conditions evidence is often treated as a document dump, but for asylum matters it works better as a structured research product.
+A practical COI guide can be pitched as a resource for clinic reading lists, asylum documentation pages, expert-witness directories, and legal research roundups.
 
-A useful Country of Origin Information report should usually separate:
-
-- the country or region;
-- the issue counsel has identified;
-- source hierarchy and freshness;
-- objective country information;
-- factual connection points for attorney review;
-- source limitations.
-
-The key boundary: the documentation team should organize and cite evidence, but counsel controls legal strategy, relevance, and final use.
-
-I put together a practical guide for legal teams on preparing a COI report for a US asylum case:
-
-https://ai-cpc.ru/test/
-
-It is written for immigration attorneys, paralegals, nonprofit legal teams, and documentation support teams.
-
-## Example post 2 — Quora/Reddit educational response
+## Example post 1 — Quora educational answer
 
 A Country of Origin Information report is not the same thing as legal argument. In an asylum context, it is usually a source-backed research document that helps counsel understand and organize country conditions evidence.
 
@@ -76,6 +55,22 @@ I wrote a practical guide here:
 https://ai-cpc.ru/test/
 
 Educational information only, not legal advice.
+
+## Example post 2 — Reddit-style educational comment
+
+One way to think about a COI report is that it is a research map, not a case prediction.
+
+For an asylum matter, the report should usually identify the country or region, the issue counsel is analyzing, current source material, older but still relevant background, and any gaps or limitations in the available evidence.
+
+What makes it useful is not just the number of sources. It is the way the sources are organized for attorney review: source type, date, reliability, relevance, quoted excerpt, and the specific factual question the source may help contextualize.
+
+The boundary matters. A documentation team can organize country conditions evidence, but counsel should decide legal relevance, filing strategy, and final use.
+
+Practical guide:
+
+https://ai-cpc.ru/test/
+
+Not legal advice.
 
 ## Outreach email — guest/resource pitch
 
@@ -123,9 +118,9 @@ Daniil
 ### Week 1
 
 - Submit the page for indexing.
-- Publish one LinkedIn-style professional post.
-- Identify 20 relevant law blogs, clinic resources, expert-witness directories, and nonprofit legal-resource pages.
+- Identify 20 relevant law blogs, clinic resources, expert-witness directories, nonprofit legal-resource pages, and human-rights documentation roundups.
 - Prepare outreach list and personalize the first 10 emails.
+- Draft Quora and Reddit educational answers without case-specific advice.
 
 ### Week 2
 
@@ -136,7 +131,7 @@ Daniil
 ### Week 3
 
 - Send the second outreach batch.
-- Repurpose the guide into a short checklist post.
+- Repurpose the guide into a short checklist pitch for niche resource pages.
 - Check Search Console impressions and query variants.
 
 ### Week 4
