@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Documentation Index | COI Report SEO/PWA Test Assignment</title>
-  <meta name="description" content="Documentation index for SEO research, source validation, model architecture, Codex review, analytics, privacy, and technical QA deliverables.">
+  <meta name="robots" content="noindex,follow">
+  <title>Reviewer Documentation Center | COI Report SEO/PWA Test Assignment</title>
+  <meta name="description" content="Reviewer dashboard for the COI Report SEO/PWA test assignment: article, research, AI workflow, source traceability, QA, and submission materials.">
   <link rel="canonical" href="https://ai-cpc.ru/test/docs-index.html">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -18,10 +19,11 @@
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open documentation menu">☰</button>
     <nav id="site-menu" class="site-menu" aria-label="Project documentation">
       <a href="index.html">Article</a>
+      <a href="docs-index.html">Docs Center</a>
       <a href="research.html">Research Hub</a>
       <a href="model.html">AI Model</a>
+      <a href="model-architecture.html">Model Architecture</a>
       <a href="codex-review.html">Codex Review</a>
-      <a href="docs-index.html">Docs Index</a>
       <a href="SUBMISSION_PACK.md">Submission Pack</a>
     </nav>
   </div>
@@ -29,38 +31,62 @@
 
 <main id="main" class="wrap">
   <article>
-    <p class="eyebrow">Project documentation</p>
-    <h1>Documentation Index</h1>
-    <p class="lead">A single map of the research, strategy, source validation, privacy, analytics, QA, and review materials included in the repository.</p>
+    <p class="eyebrow">Reviewer dashboard</p>
+    <h1>Documentation Center</h1>
+    <p class="lead">A single reviewer-facing map of the article, research evidence, AI workflow, source traceability, QA controls, and submission materials.</p>
+
+    <div class="notice"><strong>Review path:</strong> start with the live article, then inspect research, source traceability, AI workflow, QA evidence, and final submission notes.</div>
 
     <section>
-      <h2>Primary Pages</h2>
-      <ul>
-        <li><a href="index.html">Final Article Page</a></li>
-        <li><a href="research.html">Research Hub</a></li>
-        <li><a href="model.html">AI Working Model</a></li>
-        <li><a href="codex-review.html">Codex Review Report</a></li>
-      </ul>
+      <h2>Fast Review Path</h2>
+      <table>
+        <caption>Recommended review sequence</caption>
+        <tr><th scope="col">Step</th><th scope="col">File</th><th scope="col">What to verify</th></tr>
+        <tr><td>1</td><td><a href="index.html">Final Article</a></td><td>Mobile-first page, CTA, YMYL boundaries, schema, OG/Twitter, PWA basics.</td></tr>
+        <tr><td>2</td><td><a href="docs/seo-research.md">SEO Research</a></td><td>Primary keyword, related queries, ICP, title/meta, outline, competitor thinking.</td></tr>
+        <tr><td>3</td><td><a href="docs/claim-source-map.md">Claim Source Map</a></td><td>Claim-to-source mapping, URLs, source class, and YMYL traceability.</td></tr>
+        <tr><td>4</td><td><a href="model-architecture.html">Model Architecture</a></td><td>Layered AI workflow, risk gates, QA gates, and self-review protocol.</td></tr>
+        <tr><td>5</td><td><a href="SUBMISSION_PACK.md">Submission Pack</a></td><td>Live URL, repository, AI/manual note, time log, and known production limitations.</td></tr>
+      </table>
     </section>
 
     <section>
-      <h2>Research and SEO Documents</h2>
+      <h2>Primary HTML Pages</h2>
+      <table>
+        <caption>Reviewer-facing HTML pages</caption>
+        <tr><th scope="col">Page</th><th scope="col">Purpose</th><th scope="col">Status</th></tr>
+        <tr><td><a href="index.html">Article</a></td><td>Final public-facing SEO/PWA page.</td><td>Primary deliverable</td></tr>
+        <tr><td><a href="research.html">Research Hub</a></td><td>Explains source, SERP, PDF, legal, and keyword inputs.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="model.html">AI Working Model</a></td><td>Summarizes the AI-assisted workflow and prompt direction.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="model-architecture.html">Model Architecture</a></td><td>Detailed layered model and QA gates.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="codex-review.html">Codex Review</a></td><td>Review findings and hardening history.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="serp-analysis.html">SERP Analysis</a></td><td>Search corpus, ad metrics, competitor and visibility layer.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="pdf-analysis.html">PDF Analysis</a></td><td>PDF/manual/source-library evidence layer.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="keyword-analysis.html">Keyword Analysis</a></td><td>Keyword Planner, n-gram and intent analysis evidence.</td><td>Internal evidence</td></tr>
+        <tr><td><a href="legal-framework.html">Legal Framework</a></td><td>US asylum/legal-source boundary and authority hierarchy.</td><td>Internal evidence</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Research, Source, and Governance Documents</h2>
       <ul>
         <li><a href="docs/seo-research.md">SEO Research</a></li>
         <li><a href="docs/competitor-teardown.md">Competitor Teardown</a></li>
         <li><a href="docs/pdf-source-library.md">PDF Source Library</a></li>
         <li><a href="docs/source-validation-matrix.md">Source Validation Matrix</a></li>
+        <li><a href="docs/claim-source-map.md">Claim-to-Source Map</a></li>
         <li><a href="docs/source-methodology.md">Source Methodology</a></li>
-        <li><a href="docs/research-data-map.md">Research Data Map</a></li>
+        <li><a href="docs/editorial-policy.md">Editorial Policy</a></li>
+        <li><a href="docs/final-url-indexing-strategy.md">Final URL and Indexing Strategy</a></li>
       </ul>
     </section>
 
     <section>
-      <h2>Governance and QA Documents</h2>
+      <h2>Marketing, Analytics, and Workflow Documents</h2>
       <ul>
-        <li><a href="docs/editorial-policy.md">Editorial Policy</a></li>
-        <li><a href="docs/conversion-privacy-plan.md">Conversion and Privacy Plan</a></li>
+        <li><a href="docs/distribution-plan.md">Distribution Plan</a></li>
         <li><a href="docs/analytics-event-plan.md">Analytics Event Plan</a></li>
+        <li><a href="docs/conversion-privacy-plan.md">Conversion and Privacy Plan</a></li>
         <li><a href="docs/ai-prompts.md">AI Prompts</a></li>
         <li><a href="docs/codex-review-brief.md">Codex Review Brief</a></li>
         <li><a href="docs/time-log.md">Time Log</a></li>
@@ -68,13 +94,8 @@
     </section>
 
     <section>
-      <h2>Submission and Technical Files</h2>
-      <ul>
-        <li><a href="README.md">README</a></li>
-        <li><a href="AGENTS.md">AGENTS</a></li>
-        <li><a href="SUBMISSION_PACK.md">Submission Pack</a></li>
-        <li><a href="package.json">package.json</a></li>
-      </ul>
+      <h2>QA and Production Boundary</h2>
+      <p>GitHub Actions checks repository structure, HTML basics, schema, internal links, privacy UI, and accessibility smoke tests. Production launch still requires real contact details, a production privacy policy, named author/reviewer attribution, and deployed Lighthouse screenshots.</p>
     </section>
   </article>
 </main>
