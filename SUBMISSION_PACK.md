@@ -38,6 +38,7 @@ This is a prototype test inbox placeholder. It should be replaced with the final
 - Technical rationale
 - Reviewer documentation center
 - GitHub Actions QA workflow
+- Lighthouse screenshots
 
 ## Candidate positioning
 
@@ -53,7 +54,10 @@ Canonical URL and sitemap are aligned to this URL.
 
 ## Lighthouse status
 
-Lighthouse was run after deployment. Screenshots are provided separately with the submission package rather than committed to the repository.
+Lighthouse was run after deployment. Screenshots are committed in the repository and can also be attached separately with the final submission.
+
+- Mobile screenshot: [docs/assets/lighthouse/mobile.jpg](docs/assets/lighthouse/mobile.jpg)
+- Desktop screenshot: [docs/assets/lighthouse/pk.jpg](docs/assets/lighthouse/pk.jpg)
 
 Observed review scores:
 
