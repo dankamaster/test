@@ -28,7 +28,7 @@ If GA4 is implemented later, load it only after the user accepts analytics cooki
 | `email_cta_click` | Any mailto CTA click | Primary conversion intent | `cta_location`, `cta_text`, `document_type` |
 | `lead_popup_open` | Lead popup opens | Measure popup exposure | `trigger_type`, `scroll_depth`, `time_on_page` |
 | `lead_popup_close` | Lead popup dismissed | Measure friction | `close_method`, `time_on_page` |
-| `lead_form_submit_intent` | User submits mailto form | High-intent lead action | `document_needed`, `has_deadline`, `marketing_opt_in` |
+| `lead_form_submit_intent` | User submits mailto form | High-intent lead action | `document_needed`, `has_deadline` |
 | `cookie_accept_all` | Accept all clicked | Consent measurement | `consent_choice` |
 | `cookie_reject_nonessential` | Reject clicked | Consent measurement | `consent_choice` |
 | `cookie_save_preferences` | Custom preferences saved | Consent measurement | `analytics`, `marketing` |
@@ -64,7 +64,7 @@ Allowed parameters:
 2. User reaches source/checklist section.
 3. User clicks email CTA or opens lead popup.
 4. User submits mailto intent.
-5. User optionally consents to marketing updates.
+5. User reviews cookie preferences and optionally grants analytics consent.
 
 ## Primary KPIs
 
