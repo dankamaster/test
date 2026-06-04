@@ -2,7 +2,7 @@
 
 ## Goal
 
-Promote the COI report guide to a narrow attorney-facing audience during the first 30 days after publication, then use early engagement, search impressions, and outreach replies to decide whether to expand the article into a small topical cluster.
+Promote the COI report guide to a narrow B2B legal audience during the first 30 days after publication. The goal is to create first social/referral signals around the page: qualified reach, profile views, comments, reposts, saves, UTM-tracked visits, CTA clicks, direct messages, and early evidence about which channel should be scaled.
 
 Primary URL: https://ai-cpc.ru/test/
 
@@ -10,67 +10,293 @@ Primary conversion action: email-based COI documentation request.
 
 ## Channels
 
-1. Quora — educational answers to asylum evidence, country conditions, and expert documentation questions.
-2. Reddit — cautious educational participation in immigration/legal communities without solicitation or case-specific advice.
-3. Guest outreach — immigration law blogs, legal-aid resources, law school clinics, and human rights blogs.
-4. Direct outreach — small immigration law firms and nonprofit legal clinics that publish asylum evidence or country conditions resources.
-5. Niche resource placement — curated legal-resource pages, expert-witness directories, clinic reading lists, and human-rights documentation roundups.
+1. LinkedIn — primary professional channel for immigration attorneys, asylum lawyers, paralegals, legal teams, human-rights researchers, nonprofit legal teams, and expert-witness networks.
+2. Facebook — community/resource channel through relevant legal, immigration, legal-aid, nonprofit, human-rights, and professional groups/pages.
+3. Instagram — visual repurposing channel for checklist carousels, short Reels, Stories, Highlights, and profile-link traffic.
 
-LinkedIn is intentionally excluded from the first execution wave. It can be tested later as a separate professional-network channel, but this initial plan does not depend on it.
+## Why these channels
 
-## Channel rationale
+### LinkedIn
 
-### Quora
+LinkedIn is the strongest fit because the article is B2B and attorney-facing. The page is not written for asylum applicants directly; it is written for legal teams that already work with asylum matters and need structured country conditions evidence, COI reports, citation tables, source hierarchy, and attorney-review workflows.
 
-Quora can capture long-tail educational intent around country conditions evidence and expert reports. The approach should be answer-first, not promotional. The article can be cited only when it genuinely expands the answer.
+The initial LinkedIn strategy starts with one professional immigration-attorney-style profile. The profile publishes the article as a practical professional resource: country conditions evidence often becomes a disorganized bundle of PDFs, reports, links, and excerpts; a structured COI report helps separate source hierarchy, freshness, relevance, limitations, and attorney review.
 
-### Reddit
+### Facebook
 
-Reddit should be used carefully. Posts must avoid legal advice, solicitation, and case-specific responses. Useful participation would focus on explaining what a COI report is, what it is not, and why attorney review matters.
+Facebook is useful as a community and resource-distribution layer. The article can be shared through relevant groups and pages where immigration law, legal aid, human rights, asylum documentation, nonprofit work, and diaspora/country-specific discussions appear. The tone must stay educational and group-compliant.
 
-### Guest outreach
+### Instagram
 
-Guest posts or resource mentions are realistic because this is an expert niche where practical country conditions resources, checklists, and documentation workflows can be useful to legal-aid and immigration-law publishers.
+Instagram is not expected to be the strongest qualified-lead channel, but it is useful for repackaging the article into visual formats: carousels, Reels, Stories, Highlights, and checklist-style posts. The goal is secondary visibility, saves, shares, profile visits, and traffic through the profile link or story link.
 
-### Direct outreach
+## Post mechanics
 
-Small firms and clinics often need practical documentation support but may not have dedicated research staff. A short, non-sales email can ask whether a COI checklist/resource would be useful to their team.
+Each social post should include:
 
-### Niche resource placement
+- platform-specific text;
+- image, carousel, document, or Reel concept;
+- shortened UTM link;
+- hashtags;
+- first comment under the post.
 
-A practical COI guide can be pitched as a resource for clinic reading lists, asylum documentation pages, expert-witness directories, and legal research roundups.
+The first comment is used to extend the CTA, add the source link if needed, clarify the educational/no-legal-advice boundary, and encourage professional discussion without overloading the main post.
 
-## Example post 1 — Quora educational answer
+## UTM structure
 
-A Country of Origin Information report is not the same thing as legal argument. In an asylum context, it is usually a source-backed research document that helps counsel understand and organize country conditions evidence.
+Example URL:
 
-A strong COI report should not be a generic summary of a country. It should be scoped around the country or region, the issue counsel has identified, the procedural stage, and the evidentiary gaps the legal team is trying to address.
+https://ai-cpc.ru/test/?utm_source=linkedin&utm_medium=social&utm_campaign=coi_guide&utm_content=attorney_post_1
 
-Useful sections often include a source table, a short methodology note, current country conditions, excerpts tied to the factual issues, and a limitations section explaining where the evidence is incomplete or contested.
+Recommended parameters:
 
-The most important safeguard is attorney review. The documentation team can help with research, citations, and organization, but it should not decide legal strategy or predict case outcomes.
+- `utm_source`: linkedin / facebook / instagram
+- `utm_medium`: social / comment / profile / story / paid
+- `utm_campaign`: coi_guide
+- `utm_content`: attorney_post_1 / fb_resource_post_1 / ig_carousel_1 / first_comment / paid_test_1
 
-I wrote a practical guide here:
+## Example post 1 — LinkedIn attorney-style post
 
-https://ai-cpc.ru/test/
+### Channel
 
-Educational information only, not legal advice.
+LinkedIn
 
-## Example post 2 — Reddit-style educational comment
+### Type
 
-One way to think about a COI report is that it is a research map, not a case prediction.
+Professional observation / expert resource post from an immigration-attorney-style profile.
 
-For an asylum matter, the report should usually identify the country or region, the issue counsel is analyzing, current source material, older but still relevant background, and any gaps or limitations in the available evidence.
+### Visual
 
-What makes it useful is not just the number of sources. It is the way the sources are organized for attorney review: source type, date, reliability, relevance, quoted excerpt, and the specific factual question the source may help contextualize.
+Image or document carousel title:
 
-The boundary matters. A documentation team can organize country conditions evidence, but counsel should decide legal relevance, filing strategy, and final use.
+COI Report ≠ Document Dump
 
-Practical guide:
+Carousel points:
 
-https://ai-cpc.ru/test/
+- Source hierarchy
+- Source freshness
+- Factual issue mapping
+- Citation table
+- Source limitations
+- Attorney review
 
-Not legal advice.
+### Post text
+
+In asylum work, country conditions evidence can easily become a document dump: PDF reports, news links, human-rights materials, expert notes, and country summaries all mixed together.
+
+That makes attorney review harder.
+
+A useful COI report should usually separate:
+
+- source hierarchy;
+- source freshness;
+- factual issue mapping;
+- citation table;
+- source limitations;
+- attorney review before use.
+
+The key point: a COI report should support legal strategy, not replace it.
+
+I came across this practical guide on preparing a Country of Origin Information report for a US asylum case. It is written for attorneys, paralegals, and legal teams that need a clearer way to organize country conditions evidence.
+
+Guide:
+https://ai-cpc.ru/test/?utm_source=linkedin&utm_medium=social&utm_campaign=coi_guide&utm_content=attorney_post_1
+
+### Hashtags
+
+#ImmigrationLaw #AsylumLaw #CountryConditions #LegalResearch #HumanRights
+
+### First comment
+
+The most useful part for legal teams is the distinction between objective country research, source limitations, and attorney-controlled legal strategy.
+
+The guide also covers citation tables, source freshness, and the difference between a COI report and an expert declaration.
+
+Link:
+https://ai-cpc.ru/test/?utm_source=linkedin&utm_medium=comment&utm_campaign=coi_guide&utm_content=first_comment
+
+## Example post 2 — Instagram carousel with Facebook adaptation
+
+### Channel
+
+Instagram, with Facebook adaptation through Meta.
+
+### Type
+
+Visual checklist / carousel post.
+
+### Instagram carousel structure
+
+- Slide 1: COI Report ≠ Legal Argument
+- Slide 2: Define country and region
+- Slide 3: Map the factual issue
+- Slide 4: Check source hierarchy
+- Slide 5: Build a citation table
+- Slide 6: Document source limitations
+- Slide 7: Attorney review controls final use
+- Slide 8: Full guide in bio
+
+### Instagram caption
+
+A Country of Origin Information report should not be a document dump.
+
+For legal teams working on asylum matters, a useful COI report should make the evidence easier to review, not harder.
+
+A practical structure:
+
+1. Define the country or region.
+2. Map the factual issue counsel is reviewing.
+3. Check source hierarchy.
+4. Review source freshness.
+5. Build a citation table.
+6. Document source limitations.
+7. Keep final legal strategy under attorney review.
+
+Full guide in bio:
+https://ai-cpc.ru/test/?utm_source=instagram&utm_medium=social&utm_campaign=coi_guide&utm_content=carousel_1
+
+Educational resource only. Not legal advice.
+
+### Instagram hashtags
+
+#ImmigrationLaw #AsylumLaw #LegalResearch #CountryConditions #HumanRights
+
+### Instagram first comment
+
+This framework is designed for attorneys, paralegals, and legal teams organizing country conditions evidence for review. It does not replace legal analysis or case-specific strategy.
+
+### Facebook adaptation
+
+Country conditions evidence is only useful when it is structured for review.
+
+For asylum-related legal work, a COI report should not simply collect every source available on a country. It should help counsel understand:
+
+- what each source is;
+- how current it is;
+- what factual issue it may support;
+- where the limitations are;
+- what still needs attorney review.
+
+This practical guide explains how to structure a Country of Origin Information report for a US asylum case:
+
+https://ai-cpc.ru/test/?utm_source=facebook&utm_medium=social&utm_campaign=coi_guide&utm_content=resource_post_1
+
+Educational resource only. Not legal advice.
+
+### Facebook hashtags
+
+#ImmigrationLaw #Asylum #LegalAid #CountryConditions #HumanRights
+
+### Facebook first comment
+
+Best fit: immigration attorneys, paralegals, nonprofit legal teams, legal aid clinics, and documentation support teams working with country conditions evidence.
+
+## Paid amplification layer
+
+### LinkedIn Ads
+
+Small test campaign after organic post publication.
+
+Possible targeting:
+
+- immigration attorney;
+- attorney;
+- paralegal;
+- legal assistant;
+- legal operations;
+- human-rights researcher;
+- legal services;
+- nonprofit organization;
+- international affairs;
+- civic and social organizations.
+
+Test formats:
+
+- sponsored post;
+- document/checklist ad;
+- traffic campaign to the guide.
+
+### Meta Ads: Facebook + Instagram
+
+Small test campaign through Meta Ads Manager after the Facebook Page and Instagram profile are filled.
+
+Possible formats:
+
+- Facebook feed resource post;
+- Instagram carousel;
+- Instagram Stories;
+- Reels adaptation;
+- traffic / landing-page-view campaign.
+
+Safe ad angle:
+
+Educational guide for legal teams preparing country conditions documentation for attorney review.
+
+Avoid applicant-facing claims such as “win your asylum case” or “need asylum help.”
+
+## 30-day metrics
+
+- impressions;
+- reach;
+- profile visits;
+- post reactions;
+- comments;
+- reposts/shares;
+- saves;
+- link clicks;
+- UTM sessions;
+- engaged sessions;
+- CTA clicks;
+- email requests;
+- accepted connection rate;
+- direct-message replies;
+- accepted group/resource placements;
+- paid test CTR and CPC.
+
+## 90-day metrics
+
+- organic search impressions;
+- organic clicks;
+- ranking movement for primary and secondary queries;
+- returning users;
+- referring domains;
+- qualified email requests;
+- assisted leads;
+- top-performing social channel;
+- top-performing post format;
+- topics that justify follow-up pages.
+
+## 30-day execution plan
+
+### Week 1 — LinkedIn foundation
+
+- Finalize the professional profile/page positioning.
+- Publish the attorney-style post.
+- Publish or prepare the document/checklist visual.
+- Start manual engagement with relevant immigration-law, legal-aid, and human-rights profiles.
+- Track UTM visits, reactions, comments, and profile views.
+
+### Week 2 — Facebook resource seeding
+
+- Finalize the Facebook Page.
+- Identify relevant groups/pages and check rules before posting.
+- Publish the Facebook resource post where allowed.
+- Comment in relevant discussions without giving case-specific legal advice.
+- Track accepted posts, reactions, comments, and referral visits.
+
+### Week 3 — Instagram visual repurposing
+
+- Publish the Instagram carousel.
+- Adapt the carousel into Stories or a short Reel.
+- Add the guide link with UTM in bio/story where available.
+- Track saves, shares, profile visits, link clicks, and comments.
+
+### Week 4 — review and next iteration
+
+- Compare LinkedIn, Facebook, and Instagram by UTM traffic and engagement quality.
+- Identify which post angle produced the best audience quality.
+- Decide whether to scale paid tests.
+- Prepare the next content angle: COI source hierarchy, citation table checklist, or expert declaration support.
 
 ## Outreach email — guest/resource pitch
 
@@ -90,51 +316,3 @@ If your editorial team accepts resource suggestions or guest contributions, I wo
 
 Best,
 Daniil
-
-## 30-day metrics
-
-- referral visits by channel;
-- engaged sessions;
-- CTA clicks;
-- email requests;
-- outreach replies;
-- accepted guest/resource placements;
-- backlink/referring domain opportunities;
-- Search Console impressions for COI/country conditions queries.
-
-## 90-day metrics
-
-- organic impressions;
-- organic clicks;
-- ranking movement for primary and secondary queries;
-- qualified email requests;
-- referring domains;
-- assisted leads;
-- posts/questions that continue producing referral traffic;
-- topics that justify follow-up pages.
-
-## 30-day execution plan
-
-### Week 1
-
-- Submit the page for indexing.
-- Identify 20 relevant law blogs, clinic resources, expert-witness directories, nonprofit legal-resource pages, and human-rights documentation roundups.
-- Prepare outreach list and personalize the first 10 emails.
-- Draft Quora and Reddit educational answers without case-specific advice.
-
-### Week 2
-
-- Answer 2–3 Quora/Reddit-style educational questions where the guide genuinely adds context.
-- Send the first outreach batch.
-- Track early referral sessions and CTA clicks.
-
-### Week 3
-
-- Send the second outreach batch.
-- Repurpose the guide into a short checklist pitch for niche resource pages.
-- Check Search Console impressions and query variants.
-
-### Week 4
-
-- Review results by channel.
-- Decide whether to expand into supporting pages such as country conditions packet checklist, expert declaration support, or COI source hierarchy.
